@@ -78,7 +78,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
+				<version>3.8.0</version>
 				<configuration>
 					<source>${java.version}</source>
 					<target>${java.version}</target>
@@ -86,7 +86,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
-				<version>2.6</version>
+				<version>3.1.1</version>
 				<configuration>
 					<appendAssemblyId>false</appendAssemblyId>
 					<outputDirectory>${project.build.directory}/releases/</outputDirectory>
@@ -106,7 +106,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.22.1</version>
+				<version>3.0.0-M3</version>
 				<configuration>
 					<excludes>
 						<exclude>**/TestAnalysisSudachi.java</exclude>
@@ -116,7 +116,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>3.0.0-M1</version>
+				<version>3.0.1</version>
 				<configuration>
 					<source>${java.version}</source>
 				</configuration>
@@ -132,7 +132,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
-				<version>2.2.1</version>
+				<version>3.0.1</version>
 				<executions>
 					<execution>
 						<id>attach-sources</id>
@@ -145,12 +145,12 @@
 			<plugin>
 				<groupId>org.sonarsource.scanner.maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
-				<version>3.3.0.603</version>
+				<version>3.6.0.1398</version>
 			</plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.7.9</version>
+				<version>0.8.3</version>
 			</plugin>
 		</plugins>
 	</build>
@@ -177,13 +177,13 @@
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
-			<version>2.11.1</version>
+			<version>2.11.2</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.glassfish/javax.json -->
 		<dependency>
 			<groupId>org.glassfish</groupId>
 			<artifactId>javax.json</artifactId>
-			<version>1.1</version>
+			<version>1.1.4</version>
 		</dependency>
 		<!-- test -->
 		<dependency>
