@@ -16,6 +16,7 @@
 			<includes>
 				<include>com.worksap.nlp:*</include>
 				<include>org.glassfish:javax.json</include>
+				<include>org.apache.lucene:lucene-analyzers-kuromoji</include>
 			</includes>
 		</dependencySet>
 	</dependencySets>
